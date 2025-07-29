@@ -85,13 +85,13 @@ class Tool(BaseTool):
     def get_source_by_system(self,system,codename,arch,failed_sources=[]):
         # 实际测试发现，阿里云虽然延时很低，但是带宽也低的离谱，一点都不用心，删掉了
         ubuntu_amd64_sources = [
-            "https://mirrors.tuna.tsinghua.edu.cn/ubuntu",
+            # "https://mirrors.tuna.tsinghua.edu.cn/ubuntu",
             # "https://mirrors.aliyun.com/ubuntu",
             # "https://mirrors.163.com/ubuntu",
             "https://mirrors.ustc.edu.cn/ubuntu",
             "https://archive.ubuntu.com/ubuntu",
             "https://mirrors.kernel.org/ubuntu",
-            "http://mirrors.tuna.tsinghua.edu.cn/ubuntu",
+            # "http://mirrors.tuna.tsinghua.edu.cn/ubuntu",
             # "http://mirrors.aliyun.com/ubuntu",
             # "http://mirrors.163.com/ubuntu",
             "http://mirrors.ustc.edu.cn/ubuntu",
@@ -113,13 +113,13 @@ class Tool(BaseTool):
             "http://mirrors.tuna.tsinghua.edu.cn/ubuntu-ports",
         ]
         debian_amd64_sources = [
-            "https://mirrors.tuna.tsinghua.edu.cn/debian",
+            # "https://mirrors.tuna.tsinghua.edu.cn/debian",
             "https://mirrors.aliyun.com/debian",
             # "https://mirrors.163.com/debian",
             "https://mirrors.ustc.edu.cn/debian",
             "https://deb.debian.org/debian",
             "https://mirrors.kernel.org/debian",
-            "http://mirrors.tuna.tsinghua.edu.cn/debian",
+            # "http://mirrors.tuna.tsinghua.edu.cn/debian",
             "http://mirrors.aliyun.com/debian",
             # "http://mirrors.163.com/debian",
             "http://mirrors.ustc.edu.cn/debian",
